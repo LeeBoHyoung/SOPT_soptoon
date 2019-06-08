@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" android:id="@+id/ll_rv_item_episode_overview_container">
+        <ImageView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:id="@+id/img_rv_item_episode_overview_thumbnail"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:layout_weight="1" android:gravity="center_vertical">
+            <TextView
+                    android:text="title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="5dp"
+                    android:id="@+id/txt_rv_item_episode_overview_title" android:textSize="15dp"
+                    android:textStyle="bold" android:textColor="#484848"/>
+            <TextView
+                    android:text="description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/txt_rv_item_episode_overview_description"
+                    android:textColor="#CECECE"
+                    android:textSize="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:contentInsetStart="0dp"
+        android:theme="@style/MainTheme">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp">
+        <TextView
+                android:id="@+id/write_cancel"
+                android:text="취소"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#484848"
+                android:textStyle="bold"
+                android:onClick="btn_write_cancel"/>
+        <TextView
+                android:id="@+id/write_ok"
+                android:text="확인"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#484848"
+                android:textStyle="bold"
+                android:onClick="btn_write_ok"/>
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>
+
+
+
+
+
+
